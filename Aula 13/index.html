@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+
+        label {
+          cursor: pointer;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p>O meu formulario</p>
+      <p>
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Nome completo" />
+      </p>
+
+      <p>
+        Gênero: <br />
+        <label for="masculino"> Masculino </label>
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <br />
+        <label for="feminino"> Feminino </label>
+        <input type="radio" id="feminino" name="genero" value="feminino" />
+        <br />
+        <label for="Outro"> Transformer </label>
+        <input type="radio" id="Outro" name="genero" value="Outro" />
+      </p>
+
+      <p>
+        <label for="date"> Data: </label>
+        <input type="date" id="date" name="date" />
+      </p>
+
+      <p>
+        <label for="datetime"> Data: </label>
+        <input type="datetime-local" id="datetime" name="datetime" />
+      </p>
+
+      <p>
+        <label for="time"> Tempo: </label>
+        <input type="time" id="time" name="20:00:01" />
+      </p>
+
+      <p>
+        <label for="color"> Cor: </label>
+        <input type="color" id="color" name="color" value="#FF00000" />
+      </p>
+
+      <p>
+        <label for="email"> Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="ex.: email@email.com"
+        />
+      </p>
+
+      <p>
+        <label for="file"> Escolha uma imagem: </label>
+        <input type="file" id="file" name="file" />
+      </p>
+
+      <p>
+        <label for="number"> Escolha um numero: </label>
+        <input type="number" id="number" name="number" />
+      </p>
+
+      <p>
+        <label for="password"> Senha: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Digite uma senha"
+        />
+      </p>
+
+      <p>
+        <label for="range"> Volume: </label>
+        <input type="range" id="range" name="range" />
+      </p>
+
+      <p>
+        <label for="url"> URL: </label>
+        <input type="url" id="url" name="url" placeholder="Ex.: link.com.br" />
+      </p>
+
+      <p>
+        <label for="search"> Search: </label>
+        <input type="search" id="search" name="search" placeholder="search" />
+      </p>
+
+      <p>
+        <label for="search"> Search: </label>
+        <input type="search" id="search" name="search" placeholder="search" />
+      </p>
+
+      <p>
+        <label for="select">Selecione uma opção: </label>
+        <select name="select" id="select">
+          <optgroup label="Tipo de comida">
+            <option>Carne</option>
+            <option>Vegetal</option>
+          </optgroup>
+          <optgroup label="Tipo de Bebida">
+              <option>Agua</option>
+              <option>Coca</option>
+            </select>
+          </optgroup>
+          </select>
+      </p>
+
+       <p>
+        <label for="textarea"> Tempo em area: </label>
+        <textarea name="textarea" id="textarea"></textarea>
+      </p>
+
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
